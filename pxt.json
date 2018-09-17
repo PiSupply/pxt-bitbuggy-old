@@ -1,18 +1,18 @@
 {
-    "name": "RingbitCar",
+    "name": "Bit:Buggy",
     "version": "0.0.10",
-    "description": "ELECFREAKS ring:bit car",
+    "description": "Pi Supply Bit:Buggy",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "ringbitcar.ts"
+        "bitbuggy.ts"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:elecfreaks/pxt-ringbitcar#v0.0.10"
+    "installedVersion": "github:pisuply/pxt-bitbuggy#v0.0.10"
 }
