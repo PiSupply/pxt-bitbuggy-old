@@ -1,25 +1,25 @@
 
-# Ring:bit Car Package
-This ElecFreaks Ring:bit Car package was developed by [ElecFreaks](https://www.elecfreaks.com/) with minor assistance from [Tinkercademy](https://tinkercademy.com/).
+# Bit:Buggy Software Package
 
-[Ring:bit Car](http://www.elecfreaks.com/estore/ring-bit-car-mirco-bit-educational-smart-robot-kit-for-kids.html) is a DIY smart car which is based on BBC micro:bit and ELECFREAKS ring:bit. Ring:bit has extended 3 channels of GPIO, among which 2 channels are used for driving servos and one channel of GPIO is undefined. The basic version of ring:bit car can realize functions like road design, wireless remote control, graphic drawing etc.. By increasing other sensors' extension, this car can also realize functions line follow, light follow, barrier avoidance and so on.
+Pi Supply [Bit:Buggy](https://www.pi-supply.com) car is a DIY smart car based around the BBC micro:bit. Bit:Buggy has 3 extended GPIO ports - two for driving servos and one for any other stuff! The basic version of the Bit:Buggy can perform functions such as line following, remote control and others. By adding some different sensors and modules you can extend the functionality to enable things like light following, obstacle avoidance, drawing and more.
 
+![](https://github.com/PiSupply/pxt-bitbuggy/blob/master/icon.png?raw=true)
 
-![](https://github.com/elecfreaks/pxt-ringbitcar/blob/master/icon.png?raw=true)
+This software is forked from the ElecFreaks Ring:bit Car [package](https://github.com/elecfreaks/pxt-ringbitcar) which was developed by [ElecFreaks](https://www.elecfreaks.com/) with minor assistance from [Tinkercademy](https://tinkercademy.com/).
 
 ## User Guide
-[ElecFreaks Ring:bit Car User Guide](http://www.elecfreaks.com/estore/ring-bit-car-mirco-bit-educational-smart-robot-kit-for-kids.html)
+[Bit:Buggy User Guide](https://www.pi-supply.com)
 
 ## Code Example
 ```JavaScript
 basic.forever(() => {
-    RingbitCar.forward()
+    BitBuggy.forward()
     basic.pause(1000)
-    RingbitCar.turnleft()
+    BitBuggy.turnleft()
     basic.pause(1000)
-    RingbitCar.turnleft()
+    BitBuggy.turnleft()
     basic.pause(1000)
-    RingbitCar.back()
+    BitBuggy.back()
     basic.pause(2000)
 })
 ```
@@ -29,4 +29,3 @@ MIT
 
 ## Supported targets
 for PXT/microbit (The metadata above is needed for package search.)
-
