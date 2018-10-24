@@ -14,5 +14,5 @@
         "tests.ts"
     ],
     "public": true,
-    "installedVersion": "github:pisuply/pxt-bitbuggy#v0.0.10"
+    "installedVersion": "github:pisupply/pxt-bitbuggy#v0.0.10"
 }
