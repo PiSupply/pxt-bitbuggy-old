@@ -1,3 +1,4 @@
+# This is deprecated software - for new code [click here}(https://github.com/PiSupply/pxt-bitbuggy)
 
 # Bit:Buggy Software Package
 
